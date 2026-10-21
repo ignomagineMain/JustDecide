@@ -1,0 +1,11 @@
+JustDecide
+Copyright 2026 Ignomagine Private Limited, Bengaluru, India
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The JustDecide model is a derivative of Qwen3-0.6B (Copyright 2024 Alibaba Cloud), licensed under the
+Apache License, Version 2.0. Ignomagine changed it by fine-tuning it to answer typed decisions,
+calibrating it, merging the changes into the weights and quantising it to 8-bit GGUF.
+
+This software uses llama.cpp (Copyright The ggml authors, MIT License) through llama-cpp-python
+(Copyright Andrei Betlen, MIT License), installed separately with pip.

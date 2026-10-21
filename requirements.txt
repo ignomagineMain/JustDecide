@@ -1,0 +1,7 @@
+# pip install -r requirements.txt          (Python 3.8 to 3.13, 64-bit: Windows, Linux x86_64/ARM64, macOS)
+#
+# JustDecide runs on the CPU with llama.cpp, through llama-cpp-python. The extra index below has
+# ready-made builds, so nothing has to be compiled on your computer.
+--extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+--only-binary=llama-cpp-python
+llama-cpp-python==0.3.19

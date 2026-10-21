@@ -1,0 +1,10 @@
+{
+  "state": {"battery_pct": 14, "order_queue": 2, "position": "aisle 3", "lidar": "clear"},
+  "questions": {
+    "next": {"type": "choice", "instructions": "What should the AGV do next?",
+             "criteria": {"pick next order": null, "go charge": "drive to the charger now", "go to parking": null}},
+    "battery": {"type": "score", "instructions": "How much battery is left?",
+                "criteria": ["very low", "low", "ok", "full"]},
+    "go_charge": {"type": "yes/no"}
+  }
+}

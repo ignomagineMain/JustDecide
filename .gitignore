@@ -1,0 +1,8 @@
+# the model is downloaded from Hugging Face, never committed
+*.gguf
+*.gguf.part
+*.log
+__pycache__/
+*.pyc
+.venv/
+venv/
